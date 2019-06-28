@@ -1,0 +1,16 @@
+.p-30-30-10{
+  margin:0;
+  padding:30px 30px 10px;
+}
+.my_dark{
+  background: #2d2d2d;
+  color: #fff;
+}
+.my_pf{
+  padding: 20px 30px 60px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.my_fs{
+  font-size: 45px;
+}
