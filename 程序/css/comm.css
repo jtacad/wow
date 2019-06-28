@@ -21,15 +21,15 @@
     height:30%;
 }
 .my_header,.my_footer,.my_foot{ width:100%;}
-/*´óÆÁÄ»ÏÂiframeµÄ¸ß¶È*/
+/*ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½iframeï¿½Ä¸ß¶ï¿½*/
 @media (min-width: 992px) {
     .my_header{height: 8.5rem;}
-    .my_footer{height:20rem;}
+    .my_footer{height:39rem;}
     .my_foot{height:19rem;}
 }
-/*Ð¡ÆÁºÍÖÐÆÁiframeµÄ¸ß¶È*/
+/*Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iframeï¿½Ä¸ß¶ï¿½*/
 @media (max-width: 991px) and (min-width: 576px){
-    .my_header{height:11rem;}
-    .my_footer{height:20rem;}
+    .my_header{height:8.5rem;}
+    .my_footer{height:33rem;}
     .my_foot{height:15rem;}
 }
