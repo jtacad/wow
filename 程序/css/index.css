@@ -6,11 +6,51 @@
   background: #2d2d2d;
   color: #fff;
 }
+.my_p1{
+  padding:30px;
+  background:#f5f5f5;
+  color:#000;
+}
+.my_p{
+  padding:30px;
+}
+.my_p2{
+  padding:30px;
+  background:#ebebeb;
+  color:#000;
+}
+.my_p3{
+  background:#f5f5f5;
+  color:#000;
+}
+.my_mp{
+  margin: 15px 0 0;
+  padding: 0 0 0 30px;
+}
+.my_m_top{
+  margin-top:30px;
+}
 .my_pf{
   padding: 20px 30px 60px;
   box-sizing: border-box;
   color: #fff;
 }
+.my_pb{
+  margin: 0 0 15px;
+}
 .my_fs{
   font-size: 45px;
+}
+.my_background{
+  background-image:url();
+}
+.my_height{
+  height:350px;
+}
+.my_wh{
+  position: absolute;
+  top: -.2rem;
+  left: 0;
+  width: 26px;
+  height: 26px;
 }
