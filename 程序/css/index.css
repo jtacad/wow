@@ -49,8 +49,14 @@
 }
 .my_wh{
   position: absolute;
-  top: -.2rem;
+  top: 2.5rem;
   left: 0;
   width: 26px;
   height: 26px;
+}
+div ul li a{
+  color:#000 !important;
+}
+div ul li a:hover{
+  color:red !important;
 }
