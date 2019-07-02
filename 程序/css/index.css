@@ -23,9 +23,30 @@
   background:#f5f5f5;
   color:#000;
 }
+.my_a_dt{
+  display: inline-block;
+  padding-right: 60px;
+  background: url(../img/icon/ArrowNext.svg) no-repeat right 15px center;
+  background-size: 36px auto;
+  transition: .3s background-position;
+}
+.my_a_m{
+  margin: 20px 0 0;
+  padding: 10px 13px;
+  border: solid 2px #000;
+  display: table;
+  color: #000;
+  background-color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-sizing: border-box;
+}
 .my_mp{
   margin: 15px 0 0;
   padding: 0 0 0 30px;
+}
+.my_mb{
+  margin-bottom: 15px;
 }
 .my_m_top{
   margin-top:30px;
@@ -53,10 +74,4 @@
   left: 0;
   width: 26px;
   height: 26px;
-}
-div ul li a{
-  color:#000 !important;
-}
-div ul li a:hover{
-  color:red !important;
 }

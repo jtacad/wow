@@ -20,6 +20,12 @@
     width:30%;
     height:30%;
 }
+.my_a{
+    color:#000 !important;
+}
+.my_a:hover{
+    color:red !important;
+}
 .my_header,.my_footer,.my_foot{ width:100%;}
 /*����Ļ��iframe�ĸ߶�*/
 @media (min-width: 992px) {
