@@ -26,20 +26,19 @@
 .my_a_dt{
   display: inline-block;
   padding-right: 60px;
-  background: url(../img/icon/ArrowNext.svg) no-repeat right 15px center;
+  background: url(img/35.png);
   background-size: 36px auto;
   transition: .3s background-position;
 }
 .my_a_m{
   margin: 20px 0 0;
-  padding: 10px 13px;
+  padding: 10px 60px 10px 13px;
   border: solid 2px #000;
   display: table;
   color: #000;
   background-color: #fff;
   font-weight: 700;
   text-decoration: none;
-  box-sizing: border-box;
 }
 .my_mp{
   margin: 15px 0 0;
@@ -74,4 +73,15 @@
   left: 0;
   width: 26px;
   height: 26px;
+}
+.my_relative{
+  position: relative;
+}
+.my_position{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.my_display{
+  display: inline-block;
 }
