@@ -14,7 +14,7 @@
     width:30%;
 }
 .mx-6{
-    margin:0 61px;
+    margin:0 60px;
 }
 .wh-30{
     width:30%;
@@ -25,17 +25,54 @@
 }
 .my_a:hover{
     color:red !important;
+    text-decoration:none;
 }
 .my_header,.my_footer,.my_foot{ width:100%;}
-/*����Ļ��iframe�ĸ߶�*/
-@media (min-width: 992px) {
+/*超大屏幕下iframe的高度*/
+@media (min-width: 1200px) {
     .my_header{height: 8.5rem;}
     .my_footer{height:39rem;}
     .my_foot{height:19rem;}
+    .mx_index_xl_6 {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1400px;
+    }
+    .my_font_size{font-size: 4.44rem;}
+    .my_index_background{
+        padding:125px 0 40px;
+        min-height: 700px;
+    }
 }
-/*С��������iframe�ĸ߶�*/
-@media (max-width: 991px) and (min-width: 576px){
+/*大屏幕下iframe的高度*/
+@media (max-width: 1199px) and (min-width: 992px) {
+    .my_header{height: 8.5rem;}
+    .my_footer{height:39rem;}
+    .my_foot{height:19rem;}
+    .my_font_size{font-size: 4.44rem;}
+    .my_index_background{
+        padding:125px 0 40px;
+        min-height: 700px;
+    }
+}
+/*中屏幕下iframe的高度*/
+@media (max-width: 991px) and (min-width: 768px){
     .my_header{height:8.5rem;}
     .my_footer{height:33rem;}
     .my_foot{height:15rem;}
+    .my_font_size{font-size: 4.44rem;}
+    .my_index_background{
+        padding:125px 0 40px;
+        min-height: 700px;
+    }
+}
+/*小屏幕下iframe的高度*/
+@media (max-width: 767px) {
+    .my_header{height:8.5rem;}
+    .my_footer{height:33rem;}
+    .my_foot{height:15rem;}
+    .my_font_size{font-size: 2.5rem;}
+    .my_index_background{
+        min-height:319px;
+    }
 }

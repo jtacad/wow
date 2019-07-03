@@ -2,7 +2,7 @@
     content: "|";
 }
 .pg{
-    padding:15px 30px;
+    padding:15px 0;
 }
 .he-100{
     height: 300px;
@@ -10,10 +10,13 @@
 .font_b {
     font-size: 1.7rem;
     font-weight: bold;
-    padding: 30px;
+    padding: 60px 0 0;
 }
 .my_img{
     width: 25px;
     height: 25px;
-    padding: 30px;
+    margin: 20px 0;
+}
+.my_footer_p{
+    padding:0 30px 30px 30px;
 }

@@ -1,3 +1,11 @@
+.my_index_h1{
+  line-height: 1;
+  font-weight: 700;
+  color:#fff;
+  text-align: center;
+  background: url(../img/5.png) no-repeat center;
+  background-size:cover;
+}
 .p-30-30-10{
   margin:0;
   padding:30px 30px 10px;
@@ -12,7 +20,13 @@
   color:#000;
 }
 .my_p{
+  padding:0 30px 30px;
+}
+.my_index_p{
   padding:30px;
+}
+.my_index_mt{
+  margin-top:20px;
 }
 .my_p2{
   padding:30px;
@@ -32,7 +46,16 @@
 }
 .my_a_m{
   margin: 20px 0 0;
-  padding: 10px 60px 10px 13px;
+  padding: 10px 60px 10px 10px;
+  border: solid 2px #000;
+  display: table;
+  color: #000;
+  background-color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.my_a_m1{
+  padding: 10px 60px 10px 10px;
   border: solid 2px #000;
   display: table;
   color: #000;
@@ -61,7 +84,7 @@
 .my_fs{
   font-size: 45px;
 }
-.my_background{
+.my_background-image{
   background-image:url();
 }
 .my_height{
@@ -74,14 +97,28 @@
   width: 26px;
   height: 26px;
 }
+.my_wh{
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 26px;
+  height: 26px;
+}
 .my_relative{
   position: relative;
 }
 .my_position{
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+  margin-right:0;
 }
 .my_display{
   display: inline-block;
+}
+.my_index_background::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  content: '';
 }
