@@ -1,10 +1,108 @@
+.my_index_justify_content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
 .my_index_h1{
   line-height: 1;
   font-weight: 700;
   color:#fff;
   text-align: center;
-  background: url(../img/5.png) no-repeat center;
-  background-size:cover;
+}
+.my_index_div{
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.22rem;
+  width: 100%;
+}
+.my_index_div_a{
+  color: #000;
+  display: inline-block;
+  background: url(../img/35.png) no-repeat right 20px center;
+  transition: .5s background-position;
+  margin: 20px 0 0;
+  padding: 10px 60px 10px 13px;
+  background-color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.my_index_div_a:hover{
+  color: #f50f10 !important;
+  text-decoration:none;
+  background: url(../img/36.png) no-repeat right 10px center;
+  background-size: 36px auto;
+  background-color: #fff;
+  transition: .5s background-position;
+}
+.my_index_1{
+  min-height: 350px;
+  background: url(../img/32.png) no-repeat;
+  display: flex;
+  flex-direction:column-reverse;
+}
+.my_index_2{
+  min-height: 350px;
+  background: url(../img/9.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction:column-reverse;
+}
+.my_index_3{
+  min-height: 350px;
+  background: url(../img/8.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: center;
+}
+.my_index_4{
+  min-height: 350px;
+  background: url(../img/7.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction:column-reverse;
+}
+.my_index_5{
+  min-height: 350px;
+  background: url(../img/6.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: center;
+}
+.my_index_annui{
+  padding: 30px;
+  text-align: center;
+}
+.my_index_annui_a{
+  padding: 10px 50px 10px 13px;
+  color: #000;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #fff;
+  background:#fff url(../img/2.png) no-repeat right 10px center;
+  font-weight:bolder;
+}
+.my_index_annui_a:hover{
+  color: #f50f10 !important;
+  text-decoration:none;
+  background: #fff url(../img/41.png) no-repeat right 10px center;
+}
+.my_index_annui_a_1{
+  padding: 10px 50px 10px 13px;
+  color: #000;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #fff;
+  background:#fff url(../img/2.png) no-repeat right 10px center;
+  font-weight:bolder;
+}
+.my_index_annui_a_1:hover{
+  color: #f50f10 !important;
+  text-decoration:none;
+  background: #fff url(../img/41.png) no-repeat right 10px center;
 }
 .p-30-30-10{
   margin:0;
@@ -104,21 +202,22 @@
   width: 26px;
   height: 26px;
 }
-.my_relative{
-  position: relative;
-}
 .my_position{
-  margin-right:0;
+  float:right;
 }
 .my_display{
   display: inline-block;
 }
-.my_index_background::after{
-  position: absolute;
+.my_index_background:after{
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 0;
   content: '';
+}
+.my_index_tanta:after{
+  display: block;
+  content: '';
+  clear:both;
 }
