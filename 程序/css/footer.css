@@ -1,4 +1,4 @@
-
+/* 首页底部 */
 .my_footer_imgs::before {
     display: table;
     content: '';
@@ -115,4 +115,11 @@
     order: 1;
     margin-right: auto;
     font-size: 18px;
+}
+/* 第一个大图的底部 */
+.my1_foot_div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
 }
