@@ -33,7 +33,7 @@
     .my_header{height: 8.5rem;}
     .my_footer{height:39rem;}
     .my_foot{height:19rem;}
-    .mx_index_xl_6 {
+    .my_index_xl_6,.my_footer_xl_6 {
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -45,6 +45,40 @@
         min-height: 700px;
         background: url(../img/5.png) no-repeat center;
         background-size:cover;
+    }
+    .my_footer_height{
+        height:290px;
+        padding:0 30px 30px;
+        position: relative;
+    }
+    .my_footer_h2{
+        margin: 0;
+        padding-top: 60px;
+        font-size: 1.56rem;
+        line-height: 1.2;
+        font-weight: 700;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .my_footer_div_a1{
+        display: inline-block;
+        margin: 20px 20px 20px 0;
+        padding: 0;
+        list-style: none;
+        line-height: 20px;
+        vertical-align: top;
+    }
+    .my_footer_div_p1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: baseline;
+        align-items: baseline;
+        padding: 15px 30px;
+        width: 100%;
     }
 }
 /*大屏幕下iframe的高度*/
@@ -60,6 +94,40 @@
         background: url(../img/5.png) no-repeat center;
         background-size:cover;
     }
+    .my_footer_height{
+        height:290px;
+        padding:0 30px 30px;
+        position: relative;
+    }
+    .my_footer_h2{
+        margin: 0;
+        padding-top: 60px;
+        font-size: 1.56rem;
+        line-height: 1.2;
+        font-weight: 700;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .my_footer_div_a1{
+        display: inline-block;
+        margin: 20px 20px 20px 0;
+        padding: 0;
+        list-style: none;
+        line-height: 20px;
+        vertical-align: top;
+    }
+    .my_footer_div_p1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: baseline;
+        align-items: baseline;
+        padding: 15px 30px;
+        width: 100%;
+    }
 }
 /*中屏幕下iframe的高度*/
 @media (max-width: 991px) and (min-width: 768px){
@@ -73,6 +141,29 @@
         min-height: 700px;
         background: url(../img/5.png) no-repeat center;
         background-size:cover;
+    }
+    .my_footer_height{
+        height:260px;
+        box-sizing: border-box;
+        height: auto;
+        padding: 30px 15px;
+        width: 100%;
+        position: relative;
+    }
+    .my_footer_h2{
+        padding-top:10px ;
+    }
+    .my_footer_div_a1{
+        margin: 20px 0 ;
+        padding: 0;
+        list-style: none;
+        line-height: 20px;
+        vertical-align: top;
+    }
+    .my_footer_div_p1{
+        margin-top: 54px;
+        padding: 0;
+        width: 100%;
     }
 }
 /*小屏幕下iframe的高度*/
@@ -89,5 +180,30 @@
     }
     .my_index_div{
         margin-top:10px !important;
+    }
+    .my_footer_height{height:257px;}
+    .my_footer_h2{
+        padding-top:10px;
+        font-size: 1.5rem;
+    }
+    .my_footer_div_a1{
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+        line-height: 20px;
+        vertical-align: top;
+    }
+    .my_footer_height{
+        height:260px;
+        box-sizing: border-box;
+        height: auto;
+        padding: 30px 15px;
+        width: 100%;
+        position: relative;
+    }
+    .my_footer_div_p1{
+        margin-top: 54px;
+        padding: 0;
+        width: 100%;
     }
 }
