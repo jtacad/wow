@@ -31,7 +31,7 @@
 /*超大屏幕下iframe的高度*/
 @media (min-width: 1200px) {
     .my_header{height: 8.5rem;}
-    .my_footer{height:39rem;}
+    .my_footer{height:40rem;}
     .my_foot{height:19rem;}
     .my_index_xl_6,.my_footer_xl_6 {
         margin-right: auto;
@@ -84,7 +84,7 @@
 /*大屏幕下iframe的高度*/
 @media (max-width: 1199px) and (min-width: 992px) {
     .my_header{height: 8.5rem;}
-    .my_footer{height:39rem;}
+    .my_footer{height:38rem;}
     .my_foot{height:19rem;}
     .my_font_size{font-size: 4.44rem;}
     .my_index_annui_h1{font-size:2rem;}
@@ -132,7 +132,7 @@
 /*中屏幕下iframe的高度*/
 @media (max-width: 991px) and (min-width: 768px){
     .my_header{height:8.5rem;}
-    .my_footer{height:33rem;}
+    .my_footer{height:35rem;}
     .my_foot{height:15rem;}
     .my_font_size{font-size: 4.44rem;}
     .my_index_annui_h1{font-size:2rem;}
@@ -169,7 +169,7 @@
 /*小屏幕下iframe的高度*/
 @media (max-width: 767px) {
     .my_header{height:8.5rem;}
-    .my_footer{height:33rem;}
+    .my_footer{height:30rem;}
     .my_foot{height:15rem;}
     .my_font_size{font-size: 2.5rem;}
     .my_index_annui_h1{font-size:2.25rem;}
