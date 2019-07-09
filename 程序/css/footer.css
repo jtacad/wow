@@ -123,18 +123,6 @@
     box-sizing: border-box;
     background-color: #000;
 }
-.my_foot_ul{
-    border-left-color: #000;
-    position: relative;
-    list-style: none;
-    padding: 30px 0;
-    margin: 0;
-    width: calc(20% - 1px);
-    color: #fff;
-    border-color: #4d4d4d;
-    border-style: solid;
-    border-width: 0 0 0 1px;
-}
 .my_foot_ul_li{
     display: none;
 }
@@ -172,4 +160,28 @@
 .my_foot_ul_li_background>.my_foot_ul_li.ul_li>a{
     background-color: #fff;
     color: #000;
+}
+/* 超小屏显示 */
+.my_foot_ul_li1.ul_li1{
+    display: block;
+    z-index: 1;
+}
+.my_foot_ul1{
+    width:100%;
+    height: auto!important;
+}
+.my_foot_ul_li1>a{
+    display: block;
+    font-size: 16px;
+    width:100%;
+    height: auto!important;
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 1px solid #4d4d4d;
+}
+.my_foot_padding{
+    padding: .95em 15px .9em;
+}
+.my_foot_padding1{
+    padding: .95em 15px .9em 30px;
 }

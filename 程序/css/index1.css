@@ -12,7 +12,7 @@
   background-color: rgba(0,0,0,.5);
 }
 .my_index1_background{
-  background:url(../img/20.png)  no-repeat center;
+  background:url(../img/20.png) no-repeat center;
   background-size:cover;
   color:#fff;
 }
@@ -57,4 +57,90 @@
 }
 .my_index1_padding{
   padding:30px;
+}
+.my_index1_padding_hp{
+  padding:30px;
+  width:66.66%;
+  margin: auto;
+}
+.my_index1_div_div2{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.my_index1_padding_hp>h1{
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 700;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.my_index1_padding_hp>p{
+  margin: 20px 0 0;
+}
+.my_index1_annui{
+  padding: 0 30px 30px;
+}
+.my_index_annui_a{
+  color: #000;
+  display: inline-block;
+  background: url(../img/35.png) no-repeat right 20px center;
+  transition: .5s background-position;
+  padding: 10px 60px 10px 13px;
+  background-color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  border: 2px solid #fff;
+}
+.my_index_annui_a:hover{
+  color: #f50f10 !important;
+  text-decoration:none;
+  background: url(../img/36.png) no-repeat right 10px center;
+  background-color: #fff;
+  transition: .5s background-position;
+  font-size: 1.1rem;
+}
+.my_index1_background1{
+  background:url(../img/26.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background2{
+  background:url(../img/28.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background3{
+  background:url(../img/23.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background4{
+  background:url(../img/24.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background5{
+  background:url(../img/22.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background6{
+  background:url(../img/27.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background7{
+  background:url(../img/25.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
+}
+.my_index1_background8{
+  background:url(../img/21.png) no-repeat center;
+  background-size:cover;
+  color:#fff;
 }

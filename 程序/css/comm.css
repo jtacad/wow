@@ -81,7 +81,20 @@
         width: 100%;
     }
     .my_foot_ul{
-        height:376.875px;
+        height:392.875px;
+        border-left-color: #000;
+        position: relative;
+        list-style: none;
+        padding: 30px 0;
+        margin: 0;
+        width: calc(20% - 1px);
+        color: #fff;
+        border-color: #4d4d4d;
+        border-style: solid;
+        border-width: 0 0 0 1px;
+    }
+    .my_foot_ul_li1.ul_li1{
+        display: none !important;
     }
     .my_index1_div_div1{
         padding: 125px 0 40px;
@@ -94,6 +107,15 @@
     }
     .my_index1_div_div1>h1{
         font-size: 4.44rem;
+    }
+    .my_index1_div_div2{
+        min-height: 350px;
+    }
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
+      text-align: center;
+    }
+    .my_index1_padding_hp>h1{
+        font-size: 3.56rem;
     }
 }
 /*大屏幕下iframe的高度*/
@@ -144,7 +166,20 @@
         width: 100%;
     }
     .my_foot_ul{
-        height:376.875px;
+        height:392.875px;
+        border-left-color: #000;
+        position: relative;
+        list-style: none;
+        padding: 30px 0;
+        margin: 0;
+        width: calc(20% - 1px);
+        color: #fff;
+        border-color: #4d4d4d;
+        border-style: solid;
+        border-width: 0 0 0 1px;
+    }
+    .my_foot_ul_li1.ul_li1{
+        display: none !important;
     }
     .my_index1_div_div1{
         padding: 125px 0 40px;
@@ -157,6 +192,15 @@
     }
     .my_index1_div_div1>h1{
         font-size: 4.44rem;
+    }
+    .my_index1_div_div2{
+        min-height: 350px;
+    }
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
+      text-align: center;
+    }
+    .my_index1_padding_hp>h1{
+        font-size: 3.56rem;
     }
 }
 /*中屏幕下iframe的高度*/
@@ -196,7 +240,20 @@
         width: 100%;
     }
     .my_foot_ul{
-        height:392.875px;
+        height:408.875px;
+        border-left-color: #000;
+        position: relative;
+        list-style: none;
+        padding: 30px 0;
+        margin: 0;
+        width: calc(20% - 1px);
+        color: #fff;
+        border-color: #4d4d4d;
+        border-style: solid;
+        border-width: 0 0 0 1px;
+    }
+    .my_foot_ul_li1.ul_li1{
+        display: none !important;
     }
     .my_index1_div_div1{
         padding: 125px 0 40px;
@@ -209,6 +266,15 @@
     }
     .my_index1_div_div1>h1{
         font-size: 4.44rem;
+    }
+    .my_index1_div_div2{
+        min-height: 350px;
+    }
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
+      text-align: center;
+    }
+    .my_index1_padding_hp>h1{
+        font-size: 3.56rem;
     }
 }
 /*小屏幕下iframe的高度*/
@@ -251,8 +317,20 @@
         padding: 0;
         width: 100%;
     }
-    .my_foot_ul{
-        height:408.875px;
+    .my_foot_ul1{
+        height:545.359px;
+        border-left-color: #000;
+        position: relative;
+        list-style: none;
+        padding:0;
+        margin: 0;
+        color: #fff;
+    }
+    .my_foot_ul_li.ul_li{
+        display: none !important;
+    }
+    .my_foot_ul_li1.ul_li1{
+        display: block;
     }
     .my_index1_div_div1{
         min-height: 250px;
@@ -263,5 +341,30 @@
     }
     .my_index1_div_div1>h1{
         font-size: 2.5rem;
+    }
+    .my_index_ul{
+        padding: 15px !important;
+    }.my_index1_font-size{
+        font-size: .88rem !important;
+      }
+    .my_index1_div_div2{
+        min-height: 218px;
+    }
+    .my_index1_div_div2>.my_index1_annui{
+        text-align: center !important;
+    }
+    .my_index1_padding_hp{
+        padding: 25px 15px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .my_index1_padding_hp>p{
+        text-align: center !important;
+    }
+    .my_index1_padding_hp>h1{
+        font-size: 2.25rem;
+    }
+    .my_index1_annui{
+        padding:25px 15px !important;
     }
 }
