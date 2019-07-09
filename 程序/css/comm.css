@@ -32,8 +32,8 @@
 @media (min-width: 1200px) {
     .my_header{height: 8.5rem;}
     .my_footer{height:40rem;}
-    .my_foot{height:19rem;}
-    .my_index_xl_6,.my_footer_xl_6 {
+    .my_foot{height:65rem;}
+    .my_index_xl_6,.my_footer_xl_6,.my_index1_xl_6 {
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -80,12 +80,27 @@
         padding: 15px 30px;
         width: 100%;
     }
+    .my_foot_ul{
+        height:376.875px;
+    }
+    .my_index1_div_div1{
+        padding: 125px 0 40px;
+        min-height: 445px;
+        height: 445px;
+    }
+    .my_index1_div_div1>p{
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+    .my_index1_div_div1>h1{
+        font-size: 4.44rem;
+    }
 }
 /*大屏幕下iframe的高度*/
 @media (max-width: 1199px) and (min-width: 992px) {
     .my_header{height: 8.5rem;}
     .my_footer{height:38rem;}
-    .my_foot{height:19rem;}
+    .my_foot{height:62rem;}
     .my_font_size{font-size: 4.44rem;}
     .my_index_annui_h1{font-size:2rem;}
     .my_index_background{
@@ -128,12 +143,27 @@
         padding: 15px 30px;
         width: 100%;
     }
+    .my_foot_ul{
+        height:376.875px;
+    }
+    .my_index1_div_div1{
+        padding: 125px 0 40px;
+        min-height: 445px;
+        height: 445px;
+    }
+    .my_index1_div_div1>p{
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+    .my_index1_div_div1>h1{
+        font-size: 4.44rem;
+    }
 }
 /*中屏幕下iframe的高度*/
 @media (max-width: 991px) and (min-width: 768px){
     .my_header{height:8.5rem;}
     .my_footer{height:35rem;}
-    .my_foot{height:15rem;}
+    .my_foot{height:60rem;}
     .my_font_size{font-size: 4.44rem;}
     .my_index_annui_h1{font-size:2rem;}
     .my_index_background{
@@ -165,12 +195,27 @@
         padding: 0;
         width: 100%;
     }
+    .my_foot_ul{
+        height:392.875px;
+    }
+    .my_index1_div_div1{
+        padding: 125px 0 40px;
+        min-height: 445px;
+        height: 445px;
+    }
+    .my_index1_div_div1>p{
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+    .my_index1_div_div1>h1{
+        font-size: 4.44rem;
+    }
 }
 /*小屏幕下iframe的高度*/
 @media (max-width: 767px) {
     .my_header{height:8.5rem;}
     .my_footer{height:30rem;}
-    .my_foot{height:15rem;}
+    .my_foot{height:58rem;}
     .my_font_size{font-size: 2.5rem;}
     .my_index_annui_h1{font-size:2.25rem;}
     .my_index_background{
@@ -205,5 +250,18 @@
         margin-top: 54px;
         padding: 0;
         width: 100%;
+    }
+    .my_foot_ul{
+        height:408.875px;
+    }
+    .my_index1_div_div1{
+        min-height: 250px;
+    }
+    .my_index1_div_div1>p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .my_index1_div_div1>h1{
+        font-size: 2.5rem;
     }
 }
