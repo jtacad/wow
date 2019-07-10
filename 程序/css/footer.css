@@ -44,6 +44,77 @@
     width: 100%;
     text-align: center; 
 }
+/* 图片小屏 */
+.my_footer1_img1::after,.my_footer1_img2::after,.my_footer1_img3::after {
+    display: block;
+    content: "";
+    padding-top: 66.6%;
+}
+.my_footer_imgs1{
+    position: relative;
+}
+.my_footer1_img1,.my_footer1_img2,.my_footer1_img3{
+    position: relative;
+    width:100%;
+    height:100%;
+    list-style: none;
+}
+.my_footer1_img1_tu,.my_footer1_img2_tu,.my_footer1_img3_tu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 512px;
+    vertical-align: bottom;
+}
+.my_footer1_imgs_a_wai{
+    position: absolute;
+    bottom: 10.869%;
+    width: 100%;
+    text-align: center;
+}
+.my_footer1_img_dibu{
+    position: relative;
+    text-align: center;
+    background: #e0e0e0;
+    height:60px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:75%;
+    height:20%;
+    top:40%;
+    background-color: rgb(224,224,224);
+    border-radius: 4px;
+}
+.carousel-indicators li{
+    width:1.5rem;
+    height:1.5rem;
+    background: rgb(224,224,224);
+    border-radius:50%;
+    margin-left:6px;
+    margin-right:6px;
+}
+.carousel-indicators li.active{
+    background:#000;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin:0;
+    list-style: none;
+  }
+/* END */
 .my_footer_imgs_a{
     margin-top: 20px;
     border: 0;
@@ -149,6 +220,7 @@
     width: 100%;
 }
 .my_foot_ul_li.ul_li>.my_foot_ul{
+    display: block;
     z-index: 1;
 }
 .my_foot_ul_li.ul_li>.my_foot_ul>.my_foot_ul_li{
@@ -162,13 +234,9 @@
     color: #000;
 }
 /* 超小屏显示 */
-.my_foot_ul_li1.ul_li1{
+ .my_foot_ul_li1.ul_li1{
     display: block;
     z-index: 1;
-}
-.my_foot_ul1{
-    width:100%;
-    height: auto!important;
 }
 .my_foot_ul_li1>a{
     display: block;
@@ -185,3 +253,12 @@
 .my_foot_padding1{
     padding: .95em 15px .9em 30px;
 }
+.my_foot_padding2{
+    padding: .95em 15px .9em 45px;
+    background-color:#fff;
+    color:#000 !important;
+}
+.my_foot_padding3{
+    padding: .95em 15px .9em 60px;
+    background-color:#272727;
+} 
