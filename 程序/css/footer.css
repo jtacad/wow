@@ -155,7 +155,6 @@
     background: #dbdbdb;
     border-style: none;
 }
-
 .my_footer_ul {
     -webkit-box-ordinal-group: 3;
     order: 2;
@@ -186,6 +185,10 @@
     order: 1;
     margin-right: auto;
     font-size: 18px;
+}
+/* 底部列表a标签鼠标悬停背景颜色变#272727 */
+.my_foot_1_ul_li>a:hover,.my_foot_ul_li>a:hover{
+    background-color:#272727;
 }
 /* 共同探索引领我们前进的创新理念底部 */
 .my_foot_div{
@@ -276,7 +279,7 @@
     display: block;
     z-index: 1;
 }
-.my_foot_1_ul_li>a{
+.my_foot_1_ul_li.ul_li>a{
     background-color: #757575;
 }
 .my_foot_1_ul_li>a{
@@ -330,10 +333,12 @@
 }
 .my_foot_1_padding2{
     padding: .95em 15px .9em 45px;
-    background-color:#fff;
-    color:#000 !important;
 }
 .my_foot_1_padding3{
     padding: .95em 15px .9em 60px;
     background-color:#272727;
 } 
+.my_foot_1_padding3.ul_li1_a{
+    background-color:#fff;
+    color:#000 !important;
+}
