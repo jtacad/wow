@@ -1,4 +1,17 @@
 /* 首页底部 */
+.my_b{
+    background:#dbdbdb;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.my_b>p{
+    font-size: 1.56rem;
+    line-height: 1.2;
+    font-weight: 700;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 .my_footer_imgs::before {
     display: table;
     content: '';

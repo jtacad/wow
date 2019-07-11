@@ -34,7 +34,7 @@
     .my_footer{height:40rem;}
     .my_foot{height:65rem;}
     .my_foot_1{height:65rem;}
-    .my_index_xl_6,.my_footer_xl_6,.my_index1_xl_6 {
+    .my_index_xl_6,.my_footer_xl_6,.my_index1_xl_6,.my_index2_xl_6 {
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -97,27 +97,52 @@
     .my_footer_imgs1,.my_foot_ul_li1.ul_li1,.my_foot_1_ul_li1.ul_li1{
         display: none !important;
     }
-    .my_index1_div_div1{
+    .my_index1_div_div1,.my_index2_div_div{
         padding: 125px 0 40px;
         min-height: 445px;
         height: 445px;
     }
-    .my_index1_div_div1>p{
+    .my_index1_div_div1>p,.my_index2_div_div>p{
         margin-bottom: 20px;
         font-size: 1.3rem;
     }
-    .my_index1_div_div1>h1{
+    .my_index1_div_div1>h1,.my_index2_div_div>h1{
         font-size: 4.44rem;
     }
     .my_index1_div_div2{
         min-height: 350px;
     }
-    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
-      text-align: center;
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui,.my_index2_div3{
+        text-align: center;
     }
     .my_index1_padding_hp>h1{
         font-size: 3.56rem;
     }
+    .my_index2_div1_div2_div1,.my_index2_div1_div2_div2,.my_index2_div1_div2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .my_index2_div1_div2{
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      min-height: 1px;
+      background-color: transparent;
+    }
+    .my_index2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .my_index2_div3_div1{
+      padding: 30px;
+      width:66.66%;
+      margin: 0 auto;
+    }
+    .my_index2_div3_div1>h1{text-align: center;}
 }
 /*大屏幕下iframe的高度*/
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -183,27 +208,52 @@
     .my_footer_imgs1,.my_foot_ul_li1.ul_li1,.my_foot_1_ul_li1.ul_li1{
         display: none !important;
     }
-    .my_index1_div_div1{
+    .my_index1_div_div1,.my_index2_div_div{
         padding: 125px 0 40px;
         min-height: 445px;
         height: 445px;
     }
-    .my_index1_div_div1>p{
+    .my_index1_div_div1>p,.my_index2_div_div>p{
         margin-bottom: 20px;
         font-size: 1.3rem;
     }
-    .my_index1_div_div1>h1{
+    .my_index1_div_div1>h1,.my_index2_div_div>h1{
         font-size: 4.44rem;
     }
     .my_index1_div_div2{
         min-height: 350px;
     }
-    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui,.my_index2_div3{
       text-align: center;
     }
     .my_index1_padding_hp>h1{
         font-size: 3.56rem;
     }
+    .my_index2_div1_div2_div1,.my_index2_div1_div2_div2,.my_index2_div1_div2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .my_index2_div1_div2{
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      min-height: 1px;
+      background-color: transparent;
+    }
+    .my_index2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .my_index2_div3_div1{
+      padding: 30px;
+      width:66.66%;
+      margin: 0 auto;
+    }
+    .my_index2_div3_div1>h1{text-align: center;}
 }
 /*中屏幕下iframe的高度*/
 @media (max-width: 991px) and (min-width: 768px){
@@ -258,27 +308,52 @@
     .my_footer_imgs1,.my_foot_ul_li1.ul_li1,.my_foot_1_ul_li1.ul_li1{
         display: none !important;
     }
-    .my_index1_div_div1{
+    .my_index1_div_div1,.my_index2_div_div{
         padding: 125px 0 40px;
         min-height: 445px;
         height: 445px;
     }
-    .my_index1_div_div1>p{
+    .my_index1_div_div1>p,.my_index2_div_div>p{
         margin-bottom: 20px;
         font-size: 1.3rem;
     }
-    .my_index1_div_div1>h1{
+    .my_index1_div_div1>h1,.my_index2_div_div>h1{
         font-size: 4.44rem;
     }
     .my_index1_div_div2{
         min-height: 350px;
     }
-    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui{
+    .my_index1_div_div2>.my_index1_wight,.my_index1_div_div2>.my_index1_annui,.my_index2_div3{
       text-align: center;
     }
     .my_index1_padding_hp>h1{
         font-size: 3.56rem;
     }
+    .my_index2_div1_div2_div1,.my_index2_div1_div2_div2,.my_index2_div1_div2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .my_index2_div1_div2{
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      min-height: 1px;
+      background-color: transparent;
+    }
+    .my_index2_div3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .my_index2_div3_div1{
+      padding: 30px;
+      width:66.66%;
+      margin: 0 auto;
+    }
+    .my_index2_div3_div1>h1{text-align: center;}
 }
 /*小屏幕下iframe的高度*/
 @media (max-width: 767px) {
@@ -301,7 +376,8 @@
         padding-top:10px;
         font-size: 1.5rem;
     }
-    
+    .my_b{padding:25px 15px !important;}
+    .my_b>p{font-size: 1.5rem !important;}
     .my_footer_div_a1{
         margin: 20px 0;
         padding: 0;
@@ -341,14 +417,14 @@
         width:100%;
         height: auto!important;
     }
-    .my_index1_div_div1{
+    .my_index1_div_div1,.my_index2_div_div{
         min-height: 250px;
     }
-    .my_index1_div_div1>p{
+    .my_index1_div_div1>p,.my_index2_div_div>p{
         margin-bottom: 10px;
         font-size: 1rem;
     }
-    .my_index1_div_div1>h1{
+    .my_index1_div_div1>h1,.my_index2_div_div>h1{
         font-size: 2.5rem;
     }
     .my_index_ul{
@@ -375,5 +451,37 @@
     }
     .my_index1_annui{
         padding:25px 15px !important;
+    }
+    .my_index2_div1_div1>h2{font-size: 1.5rem !important;}
+    .my_index2_div1_div2_div1_div1>h3{font-size: 1.13rem !important;}
+    .my_index2_div1_div2_div1,.my_index2_div1_div2_div2,.my_index2_div1_div2_div3{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .my_index2_div1_div2_div1_div1,.my_index2_div1_div2_div2_div1,.my_index2_div1_div2_div3_div1{
+      padding:25px 15px !important;
+    }
+    .my_index2_imgs{
+        width:100% !important;
+    }
+    .my_index2_div1_div2_div1_div3,.my_index2_div1_div2_div2_div3,.my_index2_div1_div2_div3_div3{padding:25px 15px !important;}
+    .my_index2_div1_div2{
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 1px;
+      background-color: transparent;
+    }
+    .my_index2_div1_div1,.my_index2_annui,.my_index2_div3_div1{padding:25px 15px !important;}
+    .my_index2_div1_div2_img,.my_index2_div1_div2_img,.my_index2_div1_div2_img{height: 290px !important;}
+    .my_index2_annui{text-align: center;}
+    .my_index2_background1{min-height: 218px !important;}
+    .my_index2_div3{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    .my_index2_div3_div1>h1{
+        font-size: 2rem !important;
     }
 }
