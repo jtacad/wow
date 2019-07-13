@@ -129,7 +129,7 @@
   line-height: 1.4;
   font-size: 1.1rem;
 }
-.my_index2_div2,.my_index2_div4{
+.my_index2_div2,.my_index2_div4,.my_index2_div6{
   background-color: #ebebeb;
   width: 100%;
   display: -webkit-box;
@@ -151,7 +151,7 @@
   width: 100%;
   box-sizing: border-box;
 }
-.my_index2_div3::after,.my_index2_div4_after::after{
+.my_index2_div3::after,.my_index2_div4_after::after,.my_index2_div6_div::after{
   position: absolute;
   top: 0;
   right: 0;
@@ -160,7 +160,7 @@
   z-index: -1;
   content: '';
   background-color: rgba(0,0,0,.5);
-}.my_index2_annui1
+}
 .my_index2_annui{
   padding: 0 30px 30px;
 }
@@ -271,18 +271,19 @@
 }
 .my_index2_annui1{
   padding: 30px;
+  text-align: right;
 }
 .my_index2_annui1_a{
-  color: #000;
+  color: #fff;
   display: inline-block;
   background: url(../img/59.png) no-repeat right 20px center;
   padding: 10px 50px 10px 13px;
-  background-color: #fff;
-  font-weight: 700;
+  background-color: transparent;
+  font-weight: 900;
   text-decoration: none;
   box-sizing: border-box;
   font-size: 100%;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
 .my_index2_annui1_a:hover{
   color: #f50f10 !important;
@@ -293,16 +294,16 @@
   border: 2px solid #fff;
 }
 .my_index2_annui2_a{
-  color: #000;
+  color: #fff;
   display: inline-block;
   background: url(../img/58.png) no-repeat right 20px center;
   padding: 10px 50px 10px 13px;
-  background-color: #fff;
-  font-weight: 700;
+  background-color: transparent;
+  font-weight: 900;
   text-decoration: none;
   box-sizing: border-box;
   font-size: 100%;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
 .my_index2_annui2_a:hover{
   color: #f50f10 !important;
@@ -311,4 +312,35 @@
   background-color: #fff;
   font-size: 100%;
   border: 2px solid #fff;
+}
+.my_index2_div6_6{
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+.my_index2_annui2,.my_index2_div6_div_p{
+  padding: 0 30px 30px;
+  box-sizing: border-box;
+}
+.my_index2_div6_div_h3{
+  padding:30px;
+}
+.my_index2_div6_div_h3>h3{
+  font-size: 3.56rem;
+  margin:0;
+  line-height: 1.4;
+  font-weight: 700;
+  width: 100%;
+  box-sizing: border-box;
+}
+.my_index2_div6_div_p>p{
+  font-size: 1.11rem;
+  margin:0;
+  line-height: 1.4;
 }

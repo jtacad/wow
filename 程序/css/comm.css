@@ -159,6 +159,28 @@
         color: #fff;
         background-size: cover;
     }
+    .my_index2_div6_div_p,.my_index2_div6_div_h3{
+      width:75%;
+      margin:0 auto;
+      text-align: center;
+    }
+    .my_index2_annui2{
+      text-align: center;
+      width:100%;
+    }
+    .my_index2_div6_div{
+      background: url(../img/63.png) no-repeat center center;
+      color:#fff;
+      position: relative;
+      background-size: cover;
+    }
+    .my_index2_div6_imgs{
+      background-color: transparent;
+      -webkit-box-align: center;
+      align-items: center;
+      align-content: center;
+      min-height: 350px;
+    }
 }
 /*大屏幕下iframe的高度*/
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -286,6 +308,28 @@
         color: #fff;
         background-size: cover;
     }
+    .my_index2_div6_div_p,.my_index2_div6_div_h3{
+      width:75%;
+      margin:0 auto;
+      text-align: center;
+    }
+    .my_index2_annui2{
+      text-align: center;
+      width:100%;
+    }
+    .my_index2_div6_div{
+      background: url(../img/63.png) no-repeat center center;
+      color:#fff;
+      position: relative;
+      background-size: cover;
+    }
+    .my_index2_div6_imgs{
+      background-color: transparent;
+      -webkit-box-align: center;
+      align-items: center;
+      align-content: center;
+      min-height: 350px;
+    }
 }
 /*中屏幕下iframe的高度*/
 @media (max-width: 991px) and (min-width: 768px){
@@ -401,6 +445,28 @@
         position: relative;
         color: #fff;
         background-size: cover;
+    }
+    .my_index2_div6_div_p,.my_index2_div6_div_h3{
+      width:75%;
+      margin:0 auto;
+      text-align: center;
+    }
+    .my_index2_annui2{
+      text-align: center;
+      width:100%;
+    }
+    .my_index2_div6_div{
+      background: url(../img/63.png) no-repeat center center;
+      color:#fff;
+      position: relative;
+      background-size: cover;
+    }
+    .my_index2_div6_imgs{
+      background-color: transparent;
+      -webkit-box-align: center;
+      align-items: center;
+      align-content: center;
+      min-height: 350px;
     }
 }
 /*小屏幕下iframe的高度*/
@@ -559,5 +625,37 @@
     }
     .my_index2_padding4>p{
       font-size: 1rem !important;
+    }
+    .my_index2_annui2{
+        padding: 0 15px 25px !important;
+    }
+    .my_index2_div6_div_p,.my_index2_div6_div_h3{
+        padding:25px 15px !important;
+    }
+    .my_index2_annui2,.my_index2_div6_div_p,.my_index2_div6_div_h3{
+      width:100%;
+    }
+    .my_index2_div6_div{
+      background: url(../img/63.png) no-repeat center 0;
+      color:#fff;
+      position: relative;
+      padding-top:290px;
+      background-size: auto 290px;
+    }
+    .my_index2_div6_imgs{
+      background-color: transparent;
+      -webkit-box-align: center;
+      align-items: center;
+      align-content: center;
+      min-height: 580px;
+    }
+    .my_index2_div6_div_h3>h3{
+        font-size: 2rem !important;
+    }
+    .my_index2_div6_div_p{
+        flex: 20 0 auto;
+    }
+    .my_index2_div6_div_p>p{
+        font-size: 1rem !important;
     }
 }
