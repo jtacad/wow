@@ -39,6 +39,15 @@
         margin-left: auto;
         max-width: 1400px;
     }
+    .my_header_div_div1{padding-right: 0 !important;}
+    .my_header_GlobalLink {width: 61px !important;}
+    .my_header_Search {
+        -webkit-box-ordinal-group: 6;
+        order: 5;
+        height: 100%;
+        z-index: 1;
+        right: 0;
+    }
     .my_font_size{font-size: 4.44rem;}
     .my_index_annui_h1{font-size:2rem;}
     .my_index_background{
@@ -189,6 +198,15 @@
     .my_foot{height:62rem;}
     .my_foot_1{height:62rem;}
     .my_font_size{font-size: 4.44rem;}
+    .my_header_div_div1{padding-right: 0 !important;}
+    .my_header_GlobalLink {width: 61px !important;}
+    .my_header_Search {
+        -webkit-box-ordinal-group: 6;
+        order: 5;
+        height: 100%;
+        z-index: 1;
+        right: 0;
+    }
     .my_index_annui_h1{font-size:2rem;}
     .my_index_background{
         padding:125px 0 40px;
@@ -338,6 +356,23 @@
     .my_foot{height:60rem;}
     .my_foot_1{height:60rem;}
     .my_font_size{font-size: 4.44rem;}
+    .my_header_div_div1{height: 65px !important;}
+    .my_header_GlobalLink {width: 48px !important;}
+    .my_header_Search {
+        transition: .5s width;
+        margin: 0;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        height: auto;
+        display: block;
+        width: 0;
+        overflow: hidden;
+        background-color: #fff;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        z-index: 6;
+    }
     .my_index_annui_h1{font-size:2rem;}
     .my_index_background{
         padding:125px 0 40px;
@@ -476,6 +511,23 @@
     .my_foot{height:93rem;}
     .my_foot_1{height:93rem;}
     .my_font_size{font-size: 2.5rem;}
+    .my_header_div_div1{height: 65px !important;}
+    .my_header_GlobalLink {width: 48px !important;}
+    .my_header_Search {
+        transition: .5s width;
+        margin: 0;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        height: auto;
+        display: block;
+        width: 0;
+        overflow: hidden;
+        background-color: #fff;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        z-index: 6;
+    }
     .my_index_annui_h1{font-size:2.25rem;}
     .my_index_background{
         min-height:319px;
