@@ -98,7 +98,7 @@
   background-color: #fff;
   display: inline-block;
   border: 2px solid #fff;
-  background:#fff url(../img/2.png) no-repeat right 10px center;
+  background: url(../img/2.png) no-repeat right 10px center;
   font-weight:bolder;
   font-size: 1.1rem;
 }
@@ -304,9 +304,6 @@
 }
 .my_fs{
   font-size: 45px;
-}
-.my_background-image{
-  background-image:url();
 }
 .my_height{
   height:350px;
