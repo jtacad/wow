@@ -11,11 +11,80 @@
   <script src="../js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/comm.css"/>
   <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/header.css"/>
 </head>
 <body>
-<header>
-  <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+<header id="toTop" class="my_header_toTop">
+  <div class="my_header_div my_header_position my_header_z-index">
+    <div class="my_header_div_div1">
+      <h1 class="my_header_Logo">
+        <a href="#">
+          <img src="img/1.png" alt="">
+        </a>
+      </h1>
+      <p class="my_header_Lang">China</p>
+      <div class="my_header_Global">
+        <a class="my_header_GlobalLink" href="#"></a>
+      </div>
+      <div class="my_header_Search">
+        <div class="my_header_SearchInner">
+          <button class="my_header_SearchBtn">
+          </button>
+        </div>
+      </div>
+      <nav class="my_header_nav">
+        <ul class="my_header_ul">
+          <li class="my_header_ul_li my_header_1">
+            <a href="#">关于我们</a>
+            <div class="">
+              <div class=""></div>
+            </div>
+          </li>
+          <li class="my_header_ul_li my_header_2">
+            <a href="#">产品和解决方案</a>
+            <div class="">
+              <div class=""></div>
+            </div>
+          </li>
+          <li class="my_header_ul_li my_header_3">
+            <a href="#">新闻和活动</a>
+            <div class="">
+              <div class=""></div>
+            </div>
+          </li>
+          <li class="my_header_ul_li my_header_4">
+            <a href="#">联系我们</a>
+            <div class="">
+              <div class=""></div>
+            </div>
+          </li>
+          <li class="my_header_top">
+            <ul class="my_header_tops">
+              <li class="my_header_tops1">
+                <a class="my_header_tops1_a" href="#">打假信息</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
+<script>
+  toTop.children[0].onclick=function(e){
+    e.preventDefault();
+    window.scrollTo(0,0);
+  }
+  window.onscroll=function(){
+    var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+
+    if(scrollTop>=500){
+      toTop.className=""
+    }else{
+      toTop.className="show"
+    }
+  }
+</script>
 <div class="">
   <div class="my_index_background my_index_justify_content">
     <h1 class="my_font_size m-0 my_index_h1">智能驱动技术：<br>出入之间</h1>

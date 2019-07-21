@@ -95,10 +95,9 @@
 .my_index_annui_a{
   padding: 10px 50px 10px 13px;
   color: #000;
-  background-color: #fff;
   display: inline-block;
   border: 2px solid #fff;
-  background: url(../img/2.png) no-repeat right 10px center;
+  background: #fff url(../img/2.png) no-repeat right 10px center;
   font-weight:bolder;
   font-size: 1.1rem;
 }
@@ -113,10 +112,10 @@
 }
 .my_index_annui_a_1{
   padding: 10px 50px 10px 13px;
-  color: #000;
+  color: #fff;
   display: inline-block;
-  border: 2px solid #fff;
-  background:#fff url(../img/2.png) no-repeat right 10px center;
+  border: 2px solid #000;
+  background:#000 url(../img/58.png) no-repeat right 10px center;
   font-weight:bolder;
   font-size: 1.1rem;
 }
